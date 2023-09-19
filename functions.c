@@ -97,7 +97,7 @@ return (write(1, "%%", 1));
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of chars printd
  */
 int print_int(va_list types, char buffer[],
 int flags, int width, int precision, int size)
@@ -132,8 +132,8 @@ return (write_number(is_negative, i, buffer, flags, width, precision, size));
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
- * @size: Size specifier
- * Return: Numbers of char printed.
+ * @size: Size of the specifier
+ * Return: Numbers of each char print.
  */
 int print_binary(va_list types, char buffer[],
 int flags, int width, int precision, int size)

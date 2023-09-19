@@ -79,9 +79,9 @@ flags, 'x', width, precision, size));
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
- * @types: Lista of arguments
+ * @types: List the arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags:  Call for  active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
@@ -100,11 +100,11 @@ flags, 'X', width, precision, size));
  * @map_to: Array of values to map the number to
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @flag_ch: Calculates active flags
+ * @flag_ch: Call for the active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * @size: Size specification
+ * @size: Size of the specification
  * Return: Number of chars printed
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
